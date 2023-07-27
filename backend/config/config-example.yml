@@ -1,4 +1,9 @@
-name: qwik-nakama-0002
+name: qwik-nakama-0001
+
+data_dir: "../"
+
+runtime:
+  js_entrypoint: "/template/build/index.js"
 
 console:
   port: 7351
@@ -15,8 +20,11 @@ database:
 
 logger:
   stdout: false
-  level: "warn"
+  level: "DEBUG" # INFO, WARN, ERROR, DEBUG
   file: "../logs/logfile.log"
+
+session:
+  token_expiry_sec: 7200 # 2 hours
 
 # data_dir: "./data/"
 
