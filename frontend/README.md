@@ -53,3 +53,8 @@ Let's create a  Qwik App  ✨ (v1.2.6)
 
 ```
 
+# Tutorials
+
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9gOUlY-uCHurFIpqogsdOnw
+
+https://github.com/iamshaunjp/Qwik-Crash-Course-1st-Look/tree/lesson-2
