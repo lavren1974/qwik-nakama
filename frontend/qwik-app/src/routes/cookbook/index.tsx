@@ -19,6 +19,9 @@ export default component$(() => {
                     <li>
                         <Link href="/examples/layout-test">Layout-test</Link>
                     </li>
+                    <li>
+                        <Link href="/examples/states">Use state</Link>
+                    </li>
                 </ul>
 
             </article>
