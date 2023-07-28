@@ -22,6 +22,9 @@ export default component$(() => {
                     <li>
                         <Link href="/examples/states">Use state</Link>
                     </li>
+                    <li>
+                        <Link href="/examples/forms">Use forms</Link>
+                    </li>
                 </ul>
 
             </article>

@@ -1,6 +1,6 @@
 :root {
   --theme-yellow: #077c09;
-  --theme-red: #dc163b;
+  --theme-red: #190b9b;
 }
 
 body {
@@ -11,22 +11,28 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-h1, h2, h3, h4 {
+
+h1,
+h2,
+h3,
+h4 {
   font-family: "Geo";
   font-weight: bold;
   margin: 0;
   font-size: 1.8em;
 }
+
 p {
   color: #777;
 }
 
 /* layout style */
-.container{
+.container {
   max-width: 1260px;
   margin: 40px auto;
   padding: 10px;
 }
+
 footer {
   background: #ddd;
   padding: 20px;
@@ -34,63 +40,13 @@ footer {
   flex-grow: 1
 }
 
-
-/* * {
-  box-sizing: border-box;
+/* buttons */
+button {
+  background-color: var(--theme-red);
+  border: 0;
+  padding: 8px 10px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-family: "Poppins";
 }
-
-body {
-  font-family: sans-serif;
-  margin: 20px;
-  padding: 0;
-} */
-
-/* h1 {
-  margin-top: 0;
-  font-size: 22px;
-}
-
-h2 {
-  margin-top: 0;
-  font-size: 20px;
-}
-
-h3 {
-  margin-top: 0;
-  font-size: 18px;
-}
-
-h4 {
-  margin-top: 0;
-  font-size: 16px;
-}
-
-h5 {
-  margin-top: 0;
-  font-size: 14px;
-}
-
-h6 {
-  margin-top: 0;
-  font-size: 12px;
-} */
-
-/* code {
-  font-size: 1.2em;
-}
-
-ul {
-  padding-left: 20px;
-}
-
-* {
-  box-sizing: border-box;
-} */
-
-/* body {
-  font-family: sans-serif;
-  margin: 20px;
-  padding: 0;
-} */
-
-
