@@ -53,6 +53,7 @@ export default component$(() => {
                                 <div key={blog.id}>
                                     <h3>{blog.title}</h3>
                                     <p>{blog.content.slice(0, 50)}...</p>
+                                    <Link href={"/examples/blog/" + blog.id}>Read More</Link>
                                 </div>
                             ))}
                         </div>
