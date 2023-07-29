@@ -1,4 +1,4 @@
-import { component$, useStylesScoped$, useSignal, useStore } from '@builder.io/qwik';
+import { $, component$, useStylesScoped$, useSignal, useStore } from '@builder.io/qwik';
 import ModalStyles from './modal.css?inline'
 import { Link } from '@builder.io/qwik-city';
 import Modal from "~/components/modal/modal"
@@ -7,6 +7,11 @@ export default component$(() => {
     useStylesScoped$(ModalStyles)
 
     const modalVisible = useSignal(false)
+
+    const closeModal = $(() => {
+        modalVisible.value = false
+    })
+
     return (
         <>
             <article>
@@ -25,16 +30,16 @@ export default component$(() => {
                 <button onClick$={() => modalVisible.value = true}>Open Modal</button>
 
                 {modalVisible.value && (
-                    <Modal size="lg" frosted={true}>
-                    <div>some modal content</div>
-                    <div q:slot="content">
-                      <h3>Great News!!</h3>
-                      <p>impedit sit fugiat laudantium nobis at illum ipsum non.</p>
-                    </div>
-                    <div q:slot="footer">
-                      <button>Sign up now!</button>
-                    </div>
-                  </Modal>
+                    <Modal size="lg" frosted={true} close={closeModal}>
+                        <div>some modal content</div>
+                        <div q: slot="content">
+                            <h3>Great News!!</h3>
+                            <p>impedit sit fugiat laudantium nobis at illum ipsum non.</p>
+                        </div>
+                        <div q: slot="footer">
+                            <button>Sign up now!</button>
+                        </div>
+                    </Modal>
                 )}
 
 
