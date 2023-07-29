@@ -1,7 +1,7 @@
 import { component$, useStylesScoped$, Resource } from '@builder.io/qwik';
 import DataJsonStyles from './data-json.css?inline'
 import { Link } from '@builder.io/qwik-city';
-import type { RequestHandler } from '@builder.io/qwik-city';
+// import type { RequestHandler } from '@builder.io/qwik-city';
 //import { useEndpoint } from '@builder.io/qwik-city';
 
 import { routeLoader$ } from '@builder.io/qwik-city';

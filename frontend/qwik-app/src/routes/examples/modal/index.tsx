@@ -1,4 +1,4 @@
-import { $, component$, useStylesScoped$, useSignal, useStore } from '@builder.io/qwik';
+import { $, component$, useStylesScoped$, useSignal } from '@builder.io/qwik';
 import ModalStyles from './modal.css?inline'
 import { Link } from '@builder.io/qwik-city';
 import Modal from "~/components/modal/modal"

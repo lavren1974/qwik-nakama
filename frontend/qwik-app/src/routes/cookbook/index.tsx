@@ -31,6 +31,9 @@ export default component$(() => {
                     <li>
                         <Link href="/examples/data-json">Data Json</Link>
                     </li>
+                    <li>
+                        <Link href="/examples/tictactoe">TicTacToe</Link>
+                    </li>
                 </ul>
 
             </article>
