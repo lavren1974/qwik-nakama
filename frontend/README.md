@@ -58,3 +58,12 @@ Let's create a  Qwik App  ✨ (v1.2.6)
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9gOUlY-uCHurFIpqogsdOnw
 
 https://github.com/iamshaunjp/Qwik-Crash-Course-1st-Look/tree/lesson-2
+
+
+
+```
+npm install -g json-server
+json-server -w ./data/db.json
+
+http://localhost:3000/blogs
+```

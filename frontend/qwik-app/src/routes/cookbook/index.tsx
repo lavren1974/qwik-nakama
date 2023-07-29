@@ -26,7 +26,10 @@ export default component$(() => {
                         <Link href="/examples/forms">Use forms</Link>
                     </li>
                     <li>
-                        <Link href="/examples/modal">Use modal (SLOT)</Link>
+                        <Link href="/examples/modal">Use modal (SLOT, props, $)</Link>
+                    </li>
+                    <li>
+                        <Link href="/examples/data-json">Data Json</Link>
                     </li>
                 </ul>
 
