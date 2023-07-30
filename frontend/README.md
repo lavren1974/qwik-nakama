@@ -67,3 +67,6 @@ json-server -w ./data/db.json
 
 http://localhost:3000/blogs
 ```
+
+
+npm i @heroiclabs/nakama-js
